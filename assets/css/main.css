@@ -1,0 +1,14 @@
+/* Index */
+.game-hot-top {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background-color: #2F5651;
+    border-radius: 50%;
+    top: 225px;
+    right: 5px;
+    color: white;
+}

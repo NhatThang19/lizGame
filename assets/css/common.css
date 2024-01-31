@@ -1,0 +1,80 @@
+.page-content {
+    margin-top: 70px;
+}
+
+.dropdown-menu-width {
+    width: 450px;
+}
+
+.card-game-body {
+    height: 110px;
+}
+
+.card-scale:hover {
+    transform: scale(1.1);
+}
+
+.home-introduction {
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.home-introduction-content p{
+    word-wrap: normal;
+}
+
+.list-group .nav-link .list-group-item:hover {
+    background-color: #ccc !important;
+}
+
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; 
+}
+
+#content-web {
+    display: none;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    animation: pulse 1s linear infinite;
+  }
+  .loader:after {
+    content: '';
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: scaleUp 1s linear infinite;
+  }
+  
+  @keyframes scaleUp {
+    0% { transform: translate(-50%, -50%) scale(0) }
+    60% , 100% { transform: translate(-50%, -50%)  scale(1)}
+  }
+  @keyframes pulse {
+    0% , 60% , 100%{ transform:  scale(1) }
+    80% { transform:  scale(1.2)}
+  }
