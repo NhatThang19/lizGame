@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="vn" data-bs-theme="dark" id="mydiv">
+
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="m0Ad8nARRr6s8xxuEwgYQVrAcIOMhAW8KE1w3ffoqpY" />
+    <meta name="robots" content="index, follow">
+    <meta name="keywords"
+        content="Lizgame, game vui, crazy game, y8, game, trò chơi, game lizgame, game giải trí, liz, game hay, lizgame trang chủ,lizgameiovn, lizGame trò chơi, lizgame bomb it 2">
+
+    <link rel="icon" href="../assets/imgs/logos/lizgame-favicon-color.png">
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Boostrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Bomb It 2 - LizGame</title>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <link rel="stylesheet" href="../assets/css/reponstive.css">
+    <!-- My js -->
+    <script src="../js/main.js"></script>
+</head>
+
+<body>
+    <!-- FB page -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v19.0"
+        nonce="1yY9yQT1"></script>
+
+    <!-- Loader -->
+    <div id="loading-screen">
+        <span class="loader"></span>
+    </div>
+    <!-- End loader -->
+
+    <!-- My web -->
+    <div id="content-web">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/imgs/logos/lizgame-high-resolution-logo-transparent.png" alt="Bootstrap"
+                        height="27px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Thể loại
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-width">
+                                <div class="row row-cols-sm-2 row-cols-md-3 ">
+                                    <li class="col"><a
+                                            class="dropdown-item d-flex gap-1 align-items-center justify-content-start"
+                                            href="#"><i class="bi bi-caret-right"></i>Tất cả</a></li>
+                                    <li class="col"><a
+                                            class="dropdown-item d-flex gap-1 align-items-center justify-content-start"
+                                            href="#"><i class="bi bi-caret-right"></i>Hành
+                                            động</a></li>
+                                    <li class="col"><a
+                                            class="dropdown-item d-flex gap-1 align-items-center justify-content-start"
+                                            href="#"><i class="bi bi-caret-right"></i>Giải
+                                            đố</a></li>
+                                    <li class="col"><a
+                                            class="dropdown-item d-flex gap-1 align-items-center justify-content-start"
+                                            href="#"><i class="bi bi-caret-right"></i>Điện
+                                            thoại</a></li>
+                                    <li class="col"><a
+                                            class="dropdown-item d-flex gap-1 align-items-center justify-content-start"
+                                            href="#"><i class="bi bi-caret-right"></i>Máy
+                                            tính</a></li>
+                                    <li class="col"><a
+                                            class="dropdown-item d-flex gap-1 align-items-center justify-content-start"
+                                            href="#"><i class="bi bi-caret-right"></i>Con
+                                            gái</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Game Pass</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Liên hệ</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex me-2" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Nội dung tìm kiếm"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success " type="submit">Tìm</button>
+                    </form>
+                    <button class="btn btn-outline-info btn-change-color me-2" onclick="changeColor()"><span
+                            class="change-color-text">Đổi nền</span></button>
+                    <button class="btn btn-outline-info btn-login">Đăng nhập</button>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+
+        <!-- Page Content -->
+        <section class="container page-content">
+            <!-- Iframe and game -->
+            <div class="content">
+                <h3 class="content-title mb-3">Chơi Game Bomb It 2 Online</h3>
+                <div class="d-sm-block d-lg-none pb-5">Game không tương thích với kích thước màn hình của bạn!!! </div>
+                <div class="d-flex justify-content-center">
+                    <div class="content-game-wrap mb-5">
+                        <iframe style=" overflow:hidden" width="100%" height="100%" frameborder="none"
+                            allowfullscreen="true" allow="autoplay; fullscreen;" name="gameFrame" scrolling="no"
+                            src="https://store.okgamehay.com/bomb-it-7/" title="Game Bomb It 2"></iframe>
+                    </div>
+                </div>
+                <div class="content-seo mb-5">
+                    <h3>Giới thiệu tr&ograve; chơi</h3>
+                    <p><em><strong>Bomb It 2</strong></em>&nbsp;l&agrave; phần thứ hai của s&ecirc;-ri game&nbsp;<a
+                            href="https://okgamehay.com/bomb-it" target="_blank" rel="noopener">Bomb IT</a>&nbsp;tuyệt
+                        vời n&agrave;y lấy
+                        cảm hứng từ tr&ograve; chơi Bomberman gốc v&agrave; mang t&iacute;nh biểu tượng. Trong
+                        tr&ograve; chơi n&agrave;y,
+                        bạn phải di chuyển xung quanh một bản đồ đầy chướng ngại vật v&agrave; cố gắng ti&ecirc;u diệt
+                        những người chơi
+                        kh&aacute;c trong tr&ograve; chơi bằng c&aacute;ch sử dụng những quả bom nổ chậm.</p>
+                    <p>Bomb It 2 được x&acirc;y dựng dựa tr&ecirc;n những g&igrave; đ&atilde; khiến tựa game đầu
+                        ti&ecirc;n trở n&ecirc;n
+                        nổi tiếng v&agrave; cung cấp một loạt chế độ chơi mới th&uacute; vị. Khi đặt bom, h&atilde;y đảm
+                        bảo c&oacute; lối
+                        tho&aacute;t hiểm để bạn kh&ocirc;ng tự hủy hoại ch&iacute;nh m&igrave;nh. Ngo&agrave;i ra,
+                        h&atilde;y cố gắng
+                        g&agrave;i bẫy kẻ th&ugrave; bằng c&aacute;ch &eacute;p họ v&agrave;o một g&oacute;c v&agrave;
+                        khiến họ kh&ocirc;ng
+                        c&oacute; c&aacute;ch n&agrave;o để tr&aacute;nh quả bom của bạn.</p>
+                    <h3>C&aacute;ch chơi</h3>
+                    <p><em><strong>Chế độ 1 Player:</strong></em></p>
+                    <ul>
+                        <li>Sử dụng c&aacute;c ph&iacute;m&nbsp;⬅️&nbsp;➡️⬆️&nbsp;⬇&nbsp;để di chuyển.&nbsp;Sử dụng
+                            ph&iacute;m&nbsp;<img
+                                src="https://static.game24h.vn/upload/message/2010-05-11/1273565514_icon_space.gif"
+                                alt="" />&nbsp;để đặt
+                            bom.</li>
+                        <li>Tr&ecirc;n điện thoại chạm&nbsp;<img
+                                src="https://st.gamevui.com/images/image/Icon_HD/Hand.png" alt="" width="24" height="24"
+                                data-i="5" />v&agrave;o c&aacute;c ph&iacute;m ảo v&agrave;&nbsp;<img
+                                src="https://st.gamevui.com/images/image/Icon_HD/xoay-ngang.png" alt="" width="24"
+                                height="24" data-i="6" />&nbsp;xoay ngang m&agrave;n h&igrave;nh để chơi.</li>
+                    </ul>
+                    <p><em><strong>Chế độ 2 Player:</strong></em></p>
+                    <ul>
+                        <li><strong>Người chơi 1</strong>: Sử dụng c&aacute;c ph&iacute;m
+                            :&nbsp;🇼&nbsp;🇦&nbsp;🇸&nbsp;🇩&nbsp;để di
+                            chuyển. Sử dụng ph&iacute;m&nbsp;<img
+                                src="https://static.game24h.vn/upload/message/2010-05-11/1273565514_icon_space.gif"
+                                alt="" />&nbsp;để đặt
+                            bom.</li>
+                        <li><strong>Người chơi 2</strong>: Sử dụng c&aacute;c ph&iacute;m&nbsp;⬅️&nbsp;➡️⬆️&nbsp;⬇để di
+                            chuyển. Sử dụng
+                            ph&iacute;m ph&iacute;m Enter<img
+                                src="https://static.game24h.vn/upload/message/2010-05-11/1273565600_icon_enter.gif"
+                                alt="" />&nbsp; để đặt
+                            bom.</li>
+                    </ul>
+                </div>
+
+                <div class="content-comments">
+                    <div class="fb-comments" data-href="https://lizgame.io.vn/" data-width="" data-numposts="5"></div>
+                </div>
+            </div>
+            <!-- End iframe and game -->
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid mt-5">
+        <footer class="py-5">
+            <div class="row justify-content-between">
+                <div class="col-lg-4 col-sm-12 mb-3">
+                    <h5>Điều hướng</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="../index.html" class="nav-link p-0 text-body-secondary">Trang
+                                chủ</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Thể
+                                loại</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Game
+                                pass</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Liên
+                                hệ</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Giới
+                                thiệu</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-sm-12 mb-4">
+                    <h5>Page</h5>
+                    <div class="nav flex-column">
+                        <div class="fb-page"
+                            data-href="https://www.facebook.com/profile.php?id=61555818092814&amp;locale=vi_VN"
+                            data-tabs="" data-width="" data-height="" data-small-header="false"
+                            data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                            <blockquote cite="https://www.facebook.com/profile.php?id=61555818092814&amp;locale=vi_VN"
+                                class="fb-xfbml-parse-ignore"><a
+                                    href="https://www.facebook.com/profile.php?id=61555818092814&amp;locale=vi_VN">Liz
+                                    Game</a></blockquote>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-12 mb-3">
+                    <form>
+                        <h5>Đăng ký với chúng tôi để nhận những thông tin mới</h5>
+                        <p>Nhận thông báo hàng tháng về những thông tin mới của chúng tôi.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <button class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                    <p>Make by NhatThang with love :3</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-facebook"></i></a>
+                        </li>
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-youtube"></i></a>
+                        </li>
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+        </footer>
+    </div>
+    <!-- End Footer -->
+    </div>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MNPE383JY3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-MNPE383JY3');
+    </script>
+
+</body>
+
+</html>

@@ -12,3 +12,19 @@
     right: 5px;
     color: white;
 }
+
+/* Game */
+.content-game-wrap {
+    position: relative;
+    width: 1080px;
+    height: 608px;
+    margin: 0 auto;
+    box-shadow: none;
+    overflow: hidden;
+}
+
+.content-seo {
+    background-color: #789461;
+    padding: 20px;
+    border-radius: 10px;
+}
